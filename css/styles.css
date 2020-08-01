@@ -1,62 +1,68 @@
 .row-header {
-  margin: 0px;
-  padding: 0px 0px; }
-
+  margin: 0px auto;
+  padding: 0px 0px;
+}
 .row-content {
-  margin: 0px;
-  padding: 50px 0px;
+  margin: 0px auto;
+  padding: 50px 50px;
   border-bottom: 1px ridge;
-  min-height: 400px; }
-
+  min-width: 400px;
+}
 .footer {
-  background-color: #D1C4E9;
-  margin: 0px;
-  padding: 20px 0px; }
-
+  background-color: #8ee3ef;
+  margin: 0px auto;
+  padding: 20px 0p;
+}
 .jumbotron {
-  margin: 0px;
+  margin: 0px auto;
   padding: 70px 30px;
-  background: #9575CD;
-  color: floralwhite; }
-
+  background: #458cb0;
+  color: floralwhite;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
 address {
   font-size: 80%;
   margin: 0px;
-  color: #0f0f0f; }
-
+  color: #0f0f0f;
+}
 body {
   padding: 50px 0px 0px 0px;
-  z-index: 0; }
-
+  z-index: 0;
+}
 .navbar-dark {
-  background-color: #512DA8; }
-
+  background-color: #254e70;
+  font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+}
 .tab-content {
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
-  padding: 10px; }
-
+  padding: 10px;
+}
 .carousel {
-  background: #512DA8; }
-  .carousel .carousel-item {
-    height: 300px; }
-    .carousel .carousel-item img {
-      position: absolute;
-      top: 0;
-      left: 0;
-      min-height: 300px; }
-
+  background: #254e70;
+}
+.carousel .carousel-item {
+  height: 300px;
+}
+.carousel .carousel-item img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-height: 300px;
+}
 #carouselButton {
   right: 0px;
   position: absolute;
-  bottom: 0px; }
-
+  bottom: 0px;
+}
 .modal-header {
-  background-color: #512DA8;
-  color: floralwhite; }
-  .modal-header .close {
-    color: floralWhite; }
-
+  background-color: #254e70;
+  color: floralwhite;
+}
+.modal-header .close {
+  color: floralWhite;
+}
 .modal-body {
-  background-color: #D1C4E9; }
+  background-color: #8ee3ef;
+}
