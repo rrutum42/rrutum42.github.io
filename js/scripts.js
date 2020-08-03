@@ -1,5 +1,8 @@
 $(document).ready(function(){
-    $('#mycarousel').carousel({interval:2000});
+    $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+    });
+    $('#mycarousel').carousel({interval:5000});
     $('#carouselButton').click(function(){
         if($('#carouselButton').children('span').hasClass('fa-pause')){
             $('#mycarousel').carousel('pause');
@@ -13,12 +16,20 @@ $(document).ready(function(){
         }
     });
     
-    $('#loginButton').click(function(){
-        $('#loginModal').modal('show');   
+    $('#naankhatai').click(function(){
+        $('#nkModal').modal('show');   
     });
-    
+    $('#hotchoc').click(function(){
+        $('#hcModal').modal('show');   
+    });
+    $('#shakarpara').click(function(){
+        $('#spModal').modal('show');   
+    });
     $('#reserveButton').click(function(){
         $('#reserveModal').modal('show');
+    });
+    $('#badam').click(function(){
+        $('#bhModal').modal('show');   
     });
 });
 
