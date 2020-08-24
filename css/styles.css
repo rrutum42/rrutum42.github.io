@@ -10,13 +10,13 @@
 }
 .row-content {
   margin: 0px auto;
-  padding: 25px 25px;
+  padding: 0px 0px;
   border-bottom: 1px ridge;
   min-width: 400px;
 }
 .row-content-gallery {
   margin: 0px auto;
-  padding: 25px 25px;
+  padding: 0px 0px;
   min-width: 400px;
 }
 .footer {
