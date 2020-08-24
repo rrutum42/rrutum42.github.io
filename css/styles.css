@@ -1,3 +1,7 @@
+.container{
+  min-height: auto !important;
+}
+
 .row-header {
   margin: 0px auto;
   padding: 0px 0px;
