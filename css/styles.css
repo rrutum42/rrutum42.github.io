@@ -12,12 +12,12 @@
   margin: 0px auto;
   padding: 0px 0px;
   border-bottom: 1px ridge;
-  min-width: 400px;
+  min-width: auto;
 }
 .row-content-gallery {
   margin: 0px auto;
   padding: 0px 0px;
-  min-width: 400px;
+  min-width: auto;
 }
 .footer {
   background-color: #8ee3ef;
