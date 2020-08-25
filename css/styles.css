@@ -53,7 +53,7 @@ body {
 }
 .carousel {
   background: #254e70;
-  padding-top: 10px;
+  min-height: auto;
 }
 .carousel .carousel-item {
   height: 400px;
